@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- My external Style sheet -->
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Brimstone Music</title>
+
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+table, th, td {
+  border:1px solid black;
+
+
+</style>
+</head>
+<body>
+
+	
+
+<div class="top-container">
+  <a href="/"><img src="logo.jpg" alt="Brimstone Music" width="750" height="200"/></a>
+</div>
+
+<div class="header" id="myHeader">
+  <h2>Brimstone Music: Cassette Tapes</h2>
+  <p><img src=cart.jpg width="41" height="50" style="padding-left: 15px;"></p>
+  <h1 style= "font-size: 18px">My Cart</h1>
+</div>
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+
+<div class="sidenav">
+  <img src="logo2.jpg" width="140" height="190"/></a>
+  <a href="home.html">Home</a>
+  <a href="vinyl.html">Vinyl</a>
+  <a href="cd.html">CD</a>
+  <a href="tape.html">Cassette</a>
+  <a href="account.html">Login to My Account</a>
+  <a href="home.html">Customer Service</a>
+  <a href="home.html">About Us</a>
+</div>
+
+
+
+<div class="main">
+  <h3>Cassette Tapes</h3>
+  
+  <table style="width:100%">
+  <tr>
+    <th>
+      <p>
+        <img src="Wolves-Primordial-TAPE.jpg" width="275" height="275"/></a></p>
+    <p style= "font-size: 14px">"Primordial Arcana" by Wolves in the Throne Room
+    <br>Catalog # BRIM022</p>
+  
+    <p><button type="button" onclick="alert('Tape Added to Your Cart!')">Order Tape - $15</button></p></th>
+    
+    <th>
+      <p>
+        <img src="cerebral-excretion-tape.jpg" width="275" height="275"/></a></p>
+  <p style= "font-size: 14px">"Excretion of Mortality" by Cerebral Rot
+    <br>Catalog # BRIM093</p>
+  
+  <p><button type="button" onclick="alert('Tape Added to Your Cart!')">Order Tape - $10</button></p></th>
+  </tr>
+  
+  <tr>
+    <th>
+      <p>
+        <img src="Bathory-Bathory-TAPE.jpg" width="275" height="275"/></a></p>
+    <p style= "font-size: 14px">"Bathory" by Bathory
+    <br>Catalog # BRIM144</p>
+  
+    <p><button type="button" onclick="alert('Tape Added to Your Cart!')">Order Tape - $13</button></p></th>
+    
+    <th>
+      <p>
+        <img src="Bathory-Blood-TAPE.jpg" width="275" height="275"/></a></p>
+  <p style= "font-size: 14px">"Blood, Fire, Death" by Bathory
+    <br>Catalog # BRIM117</p>
+  
+  <p><button type="button" onclick="alert('Tape Added to Your Cart!')">Order Tape - $13</button></p></th>
+  </tr>
+
+  <tr>
+    <th>
+      <p>
+        <img src="qrixquor-tape.jpg" width="275" height="275"/></a></p>
+    <p style= "font-size: 14px">"Poison Palinopsia" by Qrixkuor
+    <br>Catalog # BRIM176</p>
+  
+    <p><button type="button" onclick="alert('Tape Added to Your Cart!')">Order Tape - $10</button></p></th>
+    
+    <th>
+      <p>
+        <img src="Eximperitu-Sahrartu-TAPE.jpg" width="275" height="275"/></a></p>
+  <p style= "font-size: 14px">"Sahrartu" by Eximperitus
+    <br>Catalog # BRIM335</p>
+  
+  <p><button type="button" onclick="alert('Tape Added to Your Cart!')">Order Tape - $10</button></p></th>
+  </tr>
+
+  
+</table>
+</div>
+   
+
+
+</body>
+</html> 

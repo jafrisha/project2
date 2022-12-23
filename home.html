@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- My external Style sheet -->
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Brimstone Music</title>
+
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+	
+
+<div class="top-container">
+  <a href="/"><img src="logo.jpg" alt="Brimstone Music" width="750" height="200"/></a>
+</div>
+
+<div class="header" id="myHeader">
+  <h2>Brimstone Music / Label and Distributor</h2>
+  <p><img src=cart.jpg width="41" height="50" style="padding-left: 15px;"></p>
+  <h1 style= "font-size: 18px">My Cart</h1>
+      
+</div>
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+
+<div class="sidenav">
+  <img src="logo2.jpg" width="140" height="190"/></a>
+  <a href="home.html">Home</a>
+  <a href="vinyl.html">Vinyl</a>
+  <a href="cd.html">CD</a>
+  <a href="tape.html">Cassette</a>
+  <a href="account.html">Login to My Account</a>
+  <a href="home.html">Customer Service</a>
+  <a href="home.html">About Us</a>
+</div>
+
+
+
+<div class="main">
+  <h3>New Releases / Pre-Orders</h3>
+  
+  <p><img src="daeva.jpg" width="350" height="350"/></a></p>
+  <p>"Through Sheer Will and Black Magic" by Daeva
+    <br>Release: Nov 27, 2022
+    <br>Catalog # BRIM459</p>
+  
+  <p><button type="button" onclick="alert('Vinyl Added to Your Cart!')">Pre-Order Vinyl - $25</button>
+  <button type="button" onclick="alert('CD Added to Your Cart!')">Pre-Order CD - $13</button>
+  <button type="button" onclick="alert('Tape Added to Your Cart!')">Pre-Order Tape - $10</button></p>
+
+  <p style= "font-size: 18px"><i>Philadelphia's Daeva rise like blistering flames from the hellish depths with the long-smoldering first album "Through Sheer Will And Black Magic". A fiery maelstrom of early demonic Black Metal and jagged edge Thrash convulsions forms the inherent basis of the album, where Daeva have perfected their art like gleaming forged steel.</i> </p>
+
+  <p><img src="worm.jpg" width="350" height="350"/></a></p>
+  <p>"Bluenothing" by Worm
+    <br>Release: Nov 1, 2022
+    <br>Catalog # BRIM432</p>
+  
+  <p style= "font-size: 18px"><button type="button" onclick="alert('Vinyl Added to Your Cart!')">Order Vinyl - $22</button>
+  <button type="button" onclick="alert('CD Added to Your Cart!')">Order CD - $11</button>
+  [Tape] SOLD OUT!</p>
+
+  <p style= "font-size: 18px"><i>A 4 track 26 minute mini album, ‘Bluenothing’ is an ominous nightside lament demonstrating where the always-evolving fog dwellers have been and the distant domains where they may yet venture.</i></p>
+
+  <p><img src="predatory.jpg" width="350" height="350"/></a></p>
+  <p>"Death and the Twilight Hours" by Predatory Light
+    <br>Release: Oct 14, 2022
+    <br>Catalog # BRIM418</p>
+
+   <p style= "font-size: 18px"><i>The second album from Predatory Light is comprised of four towering mazes of infernal technicality, ancient evil, and eerie church nightmare Black Metal of the South European and South American style.</i> 
+  
+  <p style= "font-size: 18px"> [Vinyl] SOLD OUT!
+  <button type="button" onclick="alert('CD Added to Your Cart!')">Order CD - $13</button>
+  <button type="button" onclick="alert('Tape Added to Your Cart!')">Order Tape - $10</button></p>
+  
+  
+</div>
+   
+
+
+</body>
+</html> 

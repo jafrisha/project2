@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- My external Style sheet -->
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Brimstone Music</title>
+
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+table, th, td {
+  border:1px solid black;
+
+
+</style>
+</head>
+<body>
+
+	
+
+<div class="top-container">
+  <a href="/"><img src="logo.jpg" alt="Brimstone Music" width="750" height="200"/></a>
+</div>
+
+<div class="header" id="myHeader">
+  <h2>Brimstone Music: Vinyl Records</h2>
+  <p><img src=cart.jpg width="41" height="50" style="padding-left: 15px;"></p>
+  <h1 style= "font-size: 18px">My Cart</h1>
+</div>
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+
+<div class="sidenav">
+  <img src="logo2.jpg" width="140" height="190"/></a>
+  <a href="home.html">Home</a>
+  <a href="vinyl.html">Vinyl</a>
+  <a href="cd.html">CD</a>
+  <a href="tape.html">Cassette</a>
+  <a href="account.html">Login to My Account</a>
+  <a href="home.html">Customer Service</a>
+  <a href="home.html">About Us</a>
+</div>
+
+
+
+<div class="main">
+  <h3>Vinyl Records</h3>
+  
+  <table style="width:100%">
+  <tr>
+    <th>
+      <p>
+        <img src="Nightbringer-Hierophany-LP.jpg" width="275" height="275"/></a></p>
+    <p style= "font-size: 14px">"Hierophany of the Open Grave" by Nightbringer
+    <br>Catalog # BRIM013</p>
+  
+    <p><button type="button" onclick="alert('Vinyl Added to Your Cart!')">Order 2 X Vinyl - $35</button></p></th>
+    
+    <th>
+      <p>
+        <img src="Nightbringer-Ego-LP.jpg" width="275" height="275"/></a></p>
+  <p style= "font-size: 14px">"Ego Dominus Tuus" by Nightbringer
+    <br>Catalog # BRIM059</p>
+  
+  <p><button type="button" onclick="alert('Vinyl Added to Your Cart!')">Order 2 X Vinyl - $30</button></p></th>
+  </tr>
+  
+  <tr>
+    <th>
+      <p>
+        <img src="tombmold-manor-LP.jpg" width="275" height="275"/></a></p>
+    <p style= "font-size: 14px">"Manor of Infinite Forms" by Tomb Mold
+    <br>Catalog # BRIM069</p>
+  
+    <p><button type="button" onclick="alert('Vinyl Added to Your Cart!')">Order Vinyl - $25</button></p></th>
+    
+    <th>
+      <p>
+        <img src="tombmold-planetary-LP.jpg" width="275" height="275"/></a></p>
+    <p style= "font-size: 14px">"Planetary Clairvoyance" by Tomb Mold
+    <br>Catalog # BRIM192</p>
+  
+    <p><button type="button" onclick="alert('Vinyl Added to Your Cart!')">Order Vinyl - $25</button></p></th>
+  </tr>
+
+  <tr>
+    <th>
+      <p>
+        <img src="voidceremony-LP.jpg" width="275" height="275"/></a></p>
+    <p style= "font-size: 14px">"Entropic Reflections Continuum: Dimensional Unravel" by VoidCeremony
+    <br>Catalog # BRIM155</p>
+  
+    <p><button type="button" onclick="alert('Vinyl Added to Your Cart!')">Order Vinyl - $30</button></p></th>
+    
+    <th>
+      <p>
+        <img src="cerebral-LP.jpg" width="275" height="275"/></a></p>
+  <p style= "font-size: 14px">"Odious Descent into Decay" by Cerebral Rot
+    <br>Catalog # BRIM100</p>
+  
+  <p><button type="button" onclick="alert('Vinyl Added to Your Cart!')">Order Vinyl - $25</button></p></th>
+  </tr>
+
+  <tr>
+    <th>
+      <p>
+        <img src="witch-poison-LP.jpg" width="275" height="275"/></a></p>
+  <p style= "font-size: 14px">"Poisoned Blood" by Witch Vomit
+    <br>Catalog # BRIM077</p>
+  
+  <p><button type="button" onclick="alert('Vinyl Added to Your Cart!')">Order Vinyl - $25</button></p></th>
+    
+    <th>
+      <p>
+        <img src="visions-aeons-LP.jpg" width="275" height="275"/></a></p>
+  <p style= "font-size: 14px">"Aeons of Misery" by Visions of Disfigurement
+    <br>Catalog # BRIM160</p>
+  
+  <p><button type="button" onclick="alert('Vinyl Added to Your Cart!')">Order Vinyl - $20</button></p></th>
+  </tr>
+</table>
+
+</div>
+   
+
+
+</body>
+</html> 

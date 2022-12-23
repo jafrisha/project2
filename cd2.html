@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- My external Style sheet -->
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Brimstone Music</title>
+
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+table, th, td {
+  border:1px solid black;
+
+
+</style>
+</head>
+<body>
+
+	
+
+<div class="top-container">
+  <a href="/"><img src="logo.jpg" alt="Brimstone Music" width="750" height="200"/></a>
+</div>
+
+<div class="header" id="myHeader">
+  <h2>Brimstone Music: Compact Discs</h2>
+  <p><img src=cart.jpg width="41" height="50" style="padding-left: 15px;"></p>
+  <h1 style= "font-size: 18px">My Cart</h1>
+</div>
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+
+<div class="sidenav">
+  <img src="logo2.jpg" width="140" height="190"/></a>
+  <a href="home.html">Home</a>
+  <a href="vinyl.html">Vinyl</a>
+  <a href="cd.html">CD</a>
+  <a href="tape.html">Cassette</a>
+  <a href="account.html">Login to My Account</a>
+  <a href="home.html">Customer Service</a>
+  <a href="home.html">About Us</a>
+</div>
+
+
+
+<div class="main">
+  <h3>Compact Discs</h3>
+
+  <p> <script>
+  function redirect() {
+   location.replace('cd.html');
+ }
+ </script>
+  <button onclick="redirect()">Previous Page</button></p>
+  
+    <table style="width:100%">
+  <tr>
+    <th>
+      <p>
+        <img src="krypts-remnants-CD.jpg" width="275" height="275"/></a></p>
+    <p style= "font-size: 14px">"Remnants of Expansion" by Krypts
+    <br>Catalog # BRIM302</p>
+  
+    <p><button type="button" onclick="alert('CD Added to Your Cart!')">Order CD - $13</button></p></th>
+    
+    <th>
+      <p>
+        <img src="krypts-cadaver-CD.jpg" width="275" height="275"/></a></p>
+  <p style= "font-size: 14px">"Cadaver Circulation" by Krypts
+    <br>Catalog # BRIM366</p>
+  
+  <p><button type="button" onclick="alert('CD Added to Your Cart!')">Order CD - $13</button></p></th>
+  </tr>
+  
+  <tr>
+    <th>
+      <p>
+        <img src="terminal-CD.jpg" width="275" height="275"/></a></p>
+    <p style= "font-size: 14px">"Holocene Extinction" by Terminal Nation
+    <br>Catalog # BRIM314</p>
+  
+    <p><button type="button" onclick="alert('CD Added to Your Cart!')">Order CD - $15</button></p></th>
+    
+    <th>
+      <p>
+        <img src="worm-foreverglade-CD.jpg" width="275" height="275"/></a></p>
+  <p style= "font-size: 14px">"Foreverglade" by Worm
+    <br>Catalog # BRIM329</p>
+  
+  <p><button type="button" onclick="alert('CD Added to Your Cart!')">Order CD - $13</button></p></th>
+  </tr>
+
+  
+</table>
+</div>
+ 
+ <div class="main">  
+ <p> <script>
+  function redirect() {
+   location.replace('cd.html');
+ }
+ </script>
+  <button onclick="redirect()">Previous Page</button></p>
+</div>
+
+</body>
+</html> 
